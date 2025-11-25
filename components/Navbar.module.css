@@ -1,0 +1,41 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  backdrop-filter: blur(12px);
+  background-color: rgba(10, 10, 10, 0.85);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  z-index: 100;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.navLinks {
+  display: flex;
+  gap: 2rem;
+  font-size: 0.95rem;
+}
+
+.navLinks a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s, transform 0.2s;
+}
+
+.navLinks a:hover {
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.active {
+  font-weight: 600;
+  color: #fff;
+}
