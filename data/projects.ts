@@ -6,10 +6,10 @@ export const projects = [
       "A vision-based control system using Python, OpenCV, and MediaPipe to detect hand gestures and send commands to an ESP32 using WebSockets. The robot cart responds to directional gestures with <150ms latency and includes debounce logic to reduce false triggers by 80%.",
   },
   {
-    title: "Animatronic Hand",
-    vimeoId: "1140306959",
-    description:
-      "This is an animatronic hand project. It demonstrates usage of personally fabricated flex sensor, usage of a voltage divider circuit, and Arduino controlling blue servos to mimic hand movements. Animatronics combines mechanical systems with electronics to create realistic movements. The project showcases precise motion control using sensors and microcontrollers.",
+  title: "Voice-Controlled Smart Assistant – NLP-Powered IoT & Query Engine",
+  vimeoId: "1143063905",
+  description:
+    "This voice-controlled smart assistant is designed to understand natural human speech and respond intelligently using NLP-powered processing. Integrated with external APIs, it can answer general knowledge queries, provide real-time information, tell jokes, and engage in small talk. The system is connected to Firebase, enabling seamless control of IoT devices such as lights, fans, and sensors through voice commands. With its combination of speech recognition, natural language understanding, and cloud-based IoT control, the project demonstrates a practical implementation of modern smart-assistant technology.",
   },
   {
     title: "Hexapod Robot – Mobile Bluetooth Control",
